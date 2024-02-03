@@ -31,7 +31,7 @@ jobs:
           name: MLCoreDebug
           path: Output/Debug/MelonLoader/
   build_rust:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
       - name: Install Rust (nightly)
